@@ -1,0 +1,151 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  width: 100%;
+  display: block;
+  position:fixed;
+  background-color: white;
+}
+#headcontainer{
+  display:flex;
+  justify-content: space-between;
+}
+.container{
+  margin: 0 auto;
+}
+.headLeft{
+  display: inline-flex;
+  color: MediumAquamarine;
+  margin: 0 30px;
+  padding:10px 20px;
+}
+.headLeft h3{
+  padding:5px;
+}
+.headRight{
+  margin: 20px 30px;
+}
+
+.headRight li {
+  list-style: none;
+  display: inline-block;
+}
+
+.headRight li a{
+  color:black;
+  padding:10px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.column{
+margin: 70px 0;
+}
+.column.large{
+  width: 660px;
+  display: block;
+  justify-content: space-between;
+}
+.upperLarge{
+
+}
+.lowerLarge{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.column.medium{
+  width: 280px;
+}
+.column.small{
+  width: 250px;
+}
+
+.title.img1{
+  background:url("../images/img-story-main.png")no-repeat;
+  font-size: 40px;
+  margin-top: 40px;
+  padding:70px 10px 70px 10px;
+}
+.title{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 34px;
+  color: white;
+  text-align: center;
+  padding:65px 20px 65px 20px;
+  margin: 0 15px 0 0px;
+}
+.txt{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  line-height: 1.2;
+}
+.txt_main{
+  padding:20px 0 20px 0;
+}
+.txt_main1{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.title.img2{
+  background: url("../images/img-story-2.png") no-repeat;
+}
+.title.img3{
+  background: url("../images/img-story-3.png") no-repeat;
+}
+.title.img4{
+  background-image: url("../images/img-story-1.png");
+}
+.newbiteList li{
+  list-style: none;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  line-height: 3;
+  padding: 0 3px;
+}
+.footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+  width:940px;
+  padding: 100px 200px;
+}
+h6{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid white;
+  height: 20px;
+  padding-right: 10px;
+}
+.footTop{
+  display: inline-flex;
+}
+.footTop li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 25px;
+}
+.footTop li a{
+  color: black;
+  padding: 5px;
+  font-size: 14px;
+}
